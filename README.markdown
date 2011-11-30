@@ -22,6 +22,7 @@ Call via `$(element).clockwinder({ /* Options here... */})`
 * **postfix**: The postfix is what will be appended to the relative time text. Defaults to `'ago'`.
 * **displayFunction**: If you wish to display the time in a custom way, this function will be called each time the time is updated with `this` scoped to the element that's being updated and arguments of `newTime` (the newest time string calculated) and `options` (the options that were passed to Clockwinder).
 * **interval**: Specify how often Clockwinder updates times (in milliseconds). Defaults to 30 seconds.
+* **timeInDays**: When true, leaves off the time. For example, it will print '11/30/2011' instead of '11/30/2011 at 11:30 pm'. Defaults to `false`.
     
 
 [1]:http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#M002262
